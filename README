@@ -1,0 +1,6 @@
+Workflow for General Force Field Preparation.
+This workflow is designed to streamline the creation of a general force field for molecular dynamics (MD) simulations. It involves the sequential execution of scripts to process atom types, generate nonbonded interaction parameters, and organize the data into a unified format. The run_workflow.sh script is used to automate this process.
+Prerequisites;
+Ensure the following files are present:
+ffnonbonded.itp and atomtypes.atp
+
