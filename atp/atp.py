@@ -6,7 +6,7 @@ final_output_file = 'final.txt'
 atomtypes_file = 'atomtypes.atp'
 string_to_add = ";added by Kiana"
 with open(final_output_file, 'r') as file:
-    data_to_add = file.readlines()[1:]  # Skip the first line
+    data_to_add = file.readlines()[1:] 
 def get_second_column_value(first_column):
     if first_column.startswith('c'):
         return '  12.01000'
